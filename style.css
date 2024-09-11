@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(fundo-bolas.jfif);
+}
+#logo{
+    font-size: 30px;
+    color: cadetblue;
+}
+
+.navbar li img{
+    width: 80px;
+    height: 80px;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    flex-direction: column;
+    height: 80px;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.navbar li{
+    background-color: #333;
+    padding: 5px 65px;
+    list-style: none;
+}
+
+
+#artigos {
+    width: 70%;
+    margin: 5rem auto;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    align-items: center; /* Centraliza o conteúdo */
+    border-radius: 8px;
+}
+
+#artigos article {
+    width: 250px;
+    height: 300px;
+    color: black;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 0 10px; /* Espaçamento horizontal entre os artigos */
+    text-align: center;
+}
+
+#artigos .articles-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    margin-top: auto;
+}
+
+footer p{
+    width: 25%;
+    color: #f4f4f4;
+    font-size: 20px;
+}
+
+main{
+    height: 500px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo_bolas {
+    color: cadetblue;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+img{
+    height: 200px;
+}
+.subtitulo_bolas{
+    color: #f4f4f4;
+    margin-bottom: 50px;
+
+}
